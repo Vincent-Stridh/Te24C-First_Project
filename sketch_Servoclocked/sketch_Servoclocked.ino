@@ -1,7 +1,7 @@
 /*
 * Name: övningsprojekt 
 * Author: Vincent Stridh
-* Date: 2025-10-14
+* Date: 2025-11-20
 * Description: This project uses a ds3231 to measure time and displays the time to an 1306 oled display, 
 * Further, it measures temprature with ds3231 and displays a mapped value to a 9g-servo-motor.
 */
@@ -90,7 +90,7 @@ String getPrint() {
 
 //This function reads the current time and 
 //Parameters: Void
-//
+//Returns: time (kommer inte ihåg vad jag skulle ha denna till)
 String getTime() {
   DateTime now = rtc.now();
   char buffer[9]; // hh:mm:ss\0
